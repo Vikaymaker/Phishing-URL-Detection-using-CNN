@@ -15,51 +15,6 @@ The project includes URL preprocessing, model training with TensorFlow/Keras, a 
 
 ---
 
-## 🗂 Project Structure
-phishing-url-cnn/
-│
-├── dataset/
-│   ├── raw/
-│   │   ├── phishing.csv
-│   │   ├── legitimate.csv
-│   ├── processed/
-│       ├── final_dataset.csv
-│
-├── src/
-│   ├── preprocessing/
-│   │   ├── encode.py
-│   │   ├── clean_url.py
-│
-│   ├── model/
-│   │   ├── cnn_model.py
-│   │   ├── train.py
-│   │   ├── evaluate.py
-│
-│   ├── utils/
-│   │   ├── dataset_loader.py
-│   │   ├── tokenizer.py
-│   │   ├── config.py
-│
-│   ├── api/
-│       ├── app.py        → Flask API for real-time URL detection
-│
-├── saved_models/
-│   ├── cnn_url_model.h5
-│   ├── tokenizer.pkl
-│
-├── ui/                     → Combined Frontend Folder
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── Testing.ipynb
-│
-├── README.md
-└── .gitignore
-
-
 ## ⚙️ Requirements
 - Python **3.10**
 - TensorFlow
@@ -71,8 +26,8 @@ phishing-url-cnn/
 
 ### 1️⃣ Clone the repository
 bash
-git clone https://github.com/Vikaymaker/Phishing-URL-Detection-using-CNN.git
-cd Phishing-URL-Detection-using-CNN
+- git clone https://github.com/Vikaymaker/Phishing-URL-Detection-using-CNN.git
+- cd Phishing-URL-Detection-using-CNN
 
 ### 2️⃣ Create virtual environment
 py -3.10 -m venv venv
