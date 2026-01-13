@@ -4,7 +4,11 @@ A deep learning–based system to classify URLs as **Phishing** or **Legitimate*
 The project includes URL preprocessing, model training with TensorFlow/Keras, a Flask REST API for real-time detection, and a simple web-based user interface.
 
 ---
+## 📸 Screenshot
 
+![Phishing URL Detection UI](ui/output.png)
+
+---
 ## 📌 Features
 - Detects phishing URLs using deep learning
 - CNN-based model trained on real phishing & legitimate datasets
