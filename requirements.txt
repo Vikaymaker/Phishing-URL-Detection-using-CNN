@@ -1,0 +1,16 @@
+✅ Python 3.10 compatible
+✅ TensorFlow + Flask + ML stack
+
+tensorflow==2.13.0
+numpy
+pandas
+scikit-learn
+flask
+flask-cors
+h5py
+joblib
+
+🔹 Optional (Recommended for training & analysis)
+matplotlib
+seaborn
+jupyter
