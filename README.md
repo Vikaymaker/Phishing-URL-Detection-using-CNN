@@ -19,28 +19,46 @@ The project includes URL preprocessing, model training with TensorFlow/Keras, a 
 phishing-url-cnn/
 │
 ├── dataset/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   │   ├── phishing.csv
+│   │   ├── legitimate.csv
+│   ├── processed/
+│       ├── final_dataset.csv
 │
 ├── src/
-│ ├── preprocessing/
-│ ├── model/
-│ ├── utils/
-│ └── api/
+│   ├── preprocessing/
+│   │   ├── encode.py
+│   │   ├── clean_url.py
+│
+│   ├── model/
+│   │   ├── cnn_model.py
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│
+│   ├── utils/
+│   │   ├── dataset_loader.py
+│   │   ├── tokenizer.py
+│   │   ├── config.py
+│
+│   ├── api/
+│       ├── app.py        → Flask API for real-time URL detection
 │
 ├── saved_models/
-│ ├── cnn_url_model.h5
-│ └── tokenizer.pkl
+│   ├── cnn_url_model.h5
+│   ├── tokenizer.pkl
 │
-├── ui/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+├── ui/                     → Combined Frontend Folder
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
 │
 ├── notebooks/
-├── requirements.txt
+│   ├── EDA.ipynb
+│   ├── Testing.ipynb
+│
 ├── README.md
 └── .gitignore
+
 
 ## ⚙️ Requirements
 - Python **3.10**
