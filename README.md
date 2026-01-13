@@ -52,11 +52,11 @@ This will generate:
  - ├── cnn_url_model.h5
  - └── tokenizer.pkl
 
- ###🚀 Run Flask API
+ ### 🚀 Run Flask API
 - python src/api/app.py
 
 
-###API will run at:
+### API will run at:
 
 - http://127.0.0.1:5000
 
@@ -75,7 +75,7 @@ This will generate:
 
 - HTML, CSS, JavaScript
 
-###🎯 Use Cases
+### 🎯 Use Cases
 
 - Cybersecurity applications
 
