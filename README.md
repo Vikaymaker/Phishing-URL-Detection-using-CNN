@@ -30,21 +30,21 @@ bash
 - cd Phishing-URL-Detection-using-CNN
 
 ### 2️⃣ Create virtual environment
-py -3.10 -m venv venv
-venv\Scripts\activate
+- py -3.10 -m venv venv
+- venv\Scripts\activate
 
 3️⃣ Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 🧠 Train the Model
 
 (Required only once)
 
-python src/model/train.py
+- python src/model/train.py
 
 This will generate:
 
-saved_models/
+- saved_models/
  ├── cnn_url_model.h5
  └── tokenizer.pkl
 
@@ -54,13 +54,7 @@ python src/api/app.py
 
 API will run at:
 
-http://127.0.0.1:5000
-
-🌐 Run Frontend
-
-Open the following file in a browser:
-
-ui/index.html
+- http://127.0.0.1:5000
 
 
 Enter a URL to check whether it is Phishing or Legitimate.
@@ -87,8 +81,3 @@ Educational ML/DL projects
 
 Resume & academic projects
 
-👤 Author
-
-Vijay B
-Bachelor of Engineering – Computer Science
-GitHub: https://github.com/Vikaymaker
