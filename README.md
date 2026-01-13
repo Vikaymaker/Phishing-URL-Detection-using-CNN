@@ -33,10 +33,10 @@ bash
 - py -3.10 -m venv venv
 - venv\Scripts\activate
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 - pip install -r requirements.txt
 
-🧠 Train the Model
+### 🧠 Train the Model
 
 (Required only once)
 
@@ -45,39 +45,39 @@ bash
 This will generate:
 
 - saved_models/
- ├── cnn_url_model.h5
- └── tokenizer.pkl
+ - ├── cnn_url_model.h5
+ - └── tokenizer.pkl
 
- 🚀 Run Flask API
-python src/api/app.py
+ ###🚀 Run Flask API
+- python src/api/app.py
 
 
-API will run at:
+###API will run at:
 
 - http://127.0.0.1:5000
 
 
-Enter a URL to check whether it is Phishing or Legitimate.
+### Enter a URL to check whether it is Phishing or Legitimate.
 
-🧪 Technologies Used
+### 🧪 Technologies Used
 
-Python
+- Python
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-Flask
+- Flask
 
-Scikit-learn
+- Scikit-learn
 
-HTML, CSS, JavaScript
+- HTML, CSS, JavaScript
 
-🎯 Use Cases
+###🎯 Use Cases
 
-Cybersecurity applications
+- Cybersecurity applications
 
-Phishing detection systems
+- Phishing detection systems
 
-Educational ML/DL projects
+- Educational ML/DL projects
 
-Resume & academic projects
+- Resume & academic projects
 
