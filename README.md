@@ -29,17 +29,19 @@ The project includes URL preprocessing, model training with TensorFlow/Keras, a 
 ## 🛠 Installation
 
 ### 1️⃣ Clone the repository
-bash
+```bash
 - git clone https://github.com/Vikaymaker/Phishing-URL-Detection-using-CNN.git
 - cd Phishing-URL-Detection-using-CNN
-
+```
 ### 2️⃣ Create virtual environment
+```
 - py -3.10 -m venv venv
 - venv\Scripts\activate
-
+```
 ### 3️⃣ Install dependencies
+```
 - pip install -r requirements.txt
-
+```
 ### 🧠 Train the Model
 
 (Required only once)
