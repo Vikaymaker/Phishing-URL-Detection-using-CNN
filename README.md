@@ -30,23 +30,23 @@ The project includes URL preprocessing, model training with TensorFlow/Keras, a 
 
 ### 1️⃣ Clone the repository
 ```bash
-- git clone https://github.com/Vikaymaker/Phishing-URL-Detection-using-CNN.git
-- cd Phishing-URL-Detection-using-CNN
+git clone https://github.com/Vikaymaker/Phishing-URL-Detection-using-CNN.git
+cd Phishing-URL-Detection-using-CNN
 ```
 ### 2️⃣ Create virtual environment
 ```
-- py -3.10 -m venv venv
-- venv\Scripts\activate
+py -3.10 -m venv venv
+venv\Scripts\activate
 ```
 ### 3️⃣ Install dependencies
 ```
-- pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ### 🧠 Train the Model
 
 (Required only once)
 ```
-- python src/model/train.py
+python src/model/train.py
 ```
 This will generate:
 
@@ -56,7 +56,7 @@ This will generate:
 
  ### 🚀 Run Flask API
  ```
-- python src/api/app.py
+python src/api/app.py
 ```
 
 ### API will run at:
