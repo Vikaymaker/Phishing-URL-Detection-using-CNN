@@ -45,9 +45,9 @@ The project includes URL preprocessing, model training with TensorFlow/Keras, a 
 ### 🧠 Train the Model
 
 (Required only once)
-
+```
 - python src/model/train.py
-
+```
 This will generate:
 
 - saved_models/
@@ -55,8 +55,9 @@ This will generate:
  - └── tokenizer.pkl
 
  ### 🚀 Run Flask API
+ ```
 - python src/api/app.py
-
+```
 
 ### API will run at:
 
